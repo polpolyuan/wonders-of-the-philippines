@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the Wonders of the Philippines!">
+    <title>Wonders of the Philippines</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Wonders of the Philippines</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#top-wonders">Top Wonders</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#map">Interactive Map</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" data-aos="fade-up">
+        <div class="container">
+            <h2>Welcome to the Wonders of the Philippines</h2>
+            <p>Embark on a virtual journey through the Philippines, a country full of natural beauty, rich culture, and historical landmarks. From pristine beaches to ancient terraces, discover the Philippines' breathtaking wonders!</p>
+        </div>
+    </section>
+
+    <section id="top-wonders">
+        <div class="container">
+            <h2 data-aos="fade-up">Top Wonders</h2>
+            <div class="wonders-list">
+                <div class="wonder" data-aos="fade-right">
+                    <h3>Chocolate Hills</h3>
+                    <p>More than 1,200 hills that turn brown during the dry season, creating a unique and stunning landscape.</p>
+                </div>
+                <div class="wonder" data-aos="fade-left">
+                    <h3>Banaue Rice Terraces</h3>
+                    <p>Thousands of years old, the Banaue Rice Terraces are a living testament to the ingenuity of the Ifugao people.</p>
+                </div>
+                <div class="wonder" data-aos="fade-right">
+                    <h3>Taal Volcano</h3>
+                    <p>Located in the middle of Taal Lake, this is one of the smallest active volcanoes in the world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2 data-aos="fade-up">Gallery</h2>
+            <div class="gallery-grid">
+                <img src="chocolate_hills.jpg" alt="Chocolate Hills" data-aos="zoom-in">
+                <img src="banaue_terraces.jpg" alt="Banaue Rice Terraces" data-aos="zoom-in">
+                <img src="taal_volcano.jpg" alt="Taal Volcano" data-aos="zoom-in">
+            </div>
+        </div>
+    </section>
+
+    <section id="map" data-aos="fade-up">
+        <div class="container">
+            <h2>Explore the Map</h2>
+            <p>Click on the regions to explore the wonders in each area of the Philippines.</p>
+            <div class="map-container">
+                <!-- A simple map could be embedded here -->
+                <img src="map_philippines.png" alt="Philippines Map" class="map-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to know more about these wonders? Get in touch with us!</p>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Wonders of the Philippines. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+</html>
